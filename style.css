@@ -85,7 +85,8 @@ section{
 
 .home-img img{
     width: 35vw;
-    height:75vh;
+    height:81vh;
+    border-radius: 75%;
     align-content:right;
     box-shadow: 0 0 1rem rgb(243, 238, 238);
     animation: floatImage 4s ease-in-out infinite;
@@ -182,9 +183,19 @@ span{
     background: var(--second-bg-color);
 }
 
-.about-img img{
+/* .about-img img{
     width: 35vw;
     box-shadow: 0 0 2rem lightskyblue;
+} */
+
+.about-img img{
+    width: 35vw;
+    height: 30vw;              /* important for perfect circle */
+    object-fit: cover;        /* crop nicely */
+    border-radius: 70%;       /* makes it circular */
+    box-shadow: 
+        0 0 2rem lightskyblue,
+        inset 0 0 25px rgba(255,255,255,0.25);  /* gives spherical feel */
 }
 
 .heading{

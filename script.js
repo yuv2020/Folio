@@ -59,10 +59,22 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
 /*==================== typed js ====================*/
 
 const typed = new Typed('.multiple-text', {
-    strings:['Fronted Developer', 'Web Designer', 'Data Analyst'],
+    strings:['Problem Solver', 'Fronted Developer', 'Web Designer', 'Product Analyst'],
     typeSpeed:100,
     backSpeed:100,
     backDelay:1000,
     loop:true
 });
 
+/*==================== Email Function ====================*/
+function sendMail(){
+    let parms = {
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("message").value,
+
+    }
+    emailjs.send("service_ryv5un6", "template_77oa4b3", parms).then(alert("Email has been sent!!"));
+
+}

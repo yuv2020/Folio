@@ -572,5 +572,87 @@ ul{
     }
 }
 
+/* ==================== Achievement Section ==================== */
 
+/* .achievement{
+    background: var(--bg-color);
+    padding-bottom: 7rem;
+}
 
+.achievement h2{
+    margin-bottom: 4rem;
+}
+
+.achievement-carousel{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.achievement-carousel .carousel-inner{
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 0 0 2rem rgba(0,0,0,.5);
+}
+
+.achievement-carousel img{
+    height: 500px;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+/* ==================== Carousel Buttons Outside ==================== */
+
+/* .carousel-control-prev,
+.carousel-control-next{
+    width: 60px;
+    opacity: 1;
+}
+
+.carousel-control-prev{
+    left: -80px;
+}
+
+.carousel-control-next{
+    right: -80px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: var(--main-color);
+    border-radius: 50%;
+    padding: 2rem;
+    background-size: 60% 60%;
+}
+
+/* ==================== Indicators ==================== */
+/* 
+.carousel-indicators{
+    bottom: -60px;
+}
+ */
+/* ==================== Responsive ==================== */
+
+/* @media(max-width:768px){
+
+    .achievement-carousel{
+        width: 95%;
+    }
+
+    .achievement-carousel img{
+        height: 300px;
+    }
+
+    .carousel-control-prev{
+        left: -20px;
+    }
+
+    .carousel-control-next{
+        right: -20px;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon{
+        padding: 1.5rem;
+    }
+}  */

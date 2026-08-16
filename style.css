@@ -153,7 +153,7 @@ span{
 }
 
 .social-media a:hover{
-    background-color: aquamarine;
+    background-color: rgb(181, 238, 218);
     color: rgb(32, 204, 190);
     box-shadow: 0 0 1rem var(--main-color);
 }
@@ -163,7 +163,7 @@ span{
     padding: 1rem 2.8rem;
     background: var(--main-color);
     border-radius: 4rem;
-    box-shadow: 0 0 2rem lightskyblue;
+    box-shadow: 0 0 2rem rgb(110, 113, 114);
     font-size:1.6rem;
     color: var(--second-bg-color);
     letter-spacing: .1rem;
